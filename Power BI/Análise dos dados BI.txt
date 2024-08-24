@@ -1,0 +1,40 @@
+Tempo ouvindo offline x online:
+
+O gráfico em formato de rosca apresentado compara a quantidade de tempo que o usuário escuta conteúdo de forma online e offline. 
+Concluiu-se que o usuário ouviu mais música online.
+
+Álbuns mais ouvidos:
+
+O gráfico apresentado mostra a popularidade de diferentes álbuns musicais, com base no número de vezes que foram reproduzidos. O álbum "Música Para Relajarse" é o mais ouvido, com 208 plays, seguido de "Weezer". Lembro que 2022 me estressou muito
+
+
+% de música ouvida no aleatório x em ordem:
+
+Análise do Gráfico: Música Ouvida no Aleatório x em Ordem
+
+O gráfico em formato de pizza apresenta a preferência do usuário por ouvir música de forma aleatória 61,67%.
+
+Total de música por artista:
+
+A tabela é muito direta em mostrar o total de músicas ouvidas pelos artistas. Weezer foi a banda mais ouvida pelo usuário no período de 2021 a 2023, com 308 plays.
+
+Razão de ter parado de ouvir a música por artista:
+
+O gráfico apresenta as razões pelas quais o usuários parou de ouvir músicas de determinados artistas. Ele compara a frequência de clique em botões de voltar, pular para a próxima música ou finalizar a reprodução, para cada artista listado. Existe  um equilíbro entre "trackdone" (música acabou) e "fwdbtn" (apertou botão para a próxima)
+
+Soma de milissegundos por artista:
+
+O spotify mede o tempo de reprodução por milissegundos. Vale salientar que na hora de tratar os dados, precisei converter de JSON para CSV, e não sei ao certo se a barra em branco é um erro ou artistas que não apareceram o nome. Porém, acredito que pode ser o somatório de tudo o que o usuário ouviu. Me recordo que The Black Keys e Weezer eram mesmo meus artistas mais ouvidos. Convertendo de milissegundos para horas, The Black Keys foi ouvido por 9,3 horas e Weezer por 7,9 horas.
+
+Total de músicas ouvidas no aleatório por artista:
+
+mostra a condição em que o usuário ouviu os artistas favoritos (mais ouvidos). Majoritariamente online.
+
+Contagem de razões da música ter acabado:
+
+mostra o motivo da música ter sido (ou não) interrompida. O usuário majoritariamente espera a música chegar até o final. Também foram significativas as vezes em que ele não esperou e clicou para ouvir a próxima música.
+
+Álbuns ouvidos offline x online:
+
+mostra o total de álbuns offline x online. Assim como com as músicas, o usuário ouve muito mais online.
+

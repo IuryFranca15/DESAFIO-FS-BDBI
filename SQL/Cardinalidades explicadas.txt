@@ -1,0 +1,25 @@
+Regras de Negócio Inferidas:
+
+Uma banda pode ter muitos produtos:
+
+Cada banda pode ter várias camisetas, canecas, chaveiros, vinis e adesivos. Isso é representado pela cardinalidade (1,n) entre Bandas e as outras entidades de produtos.
+Essa regra reflete a realidade de que uma banda geralmente possui uma linha diversificada de produtos.
+Um produto pertence a apenas uma banda:
+
+Cada camiseta, caneca, chaveiro, vinil e adesivo está associado a uma única banda. Isso é representado pela cardinalidade (1,1) nas chaves estrangeiras das tabelas de produtos que referenciam a tabela Bandas.
+Essa regra garante a integridade dos dados, evitando que um produto seja atribuído a múltiplas bandas.
+Uma banda pode ter muitos livros:
+
+A cardinalidade (1,n) entre Bandas e Livros quer dizer que uma banda pode ter vários livros associados a ela.
+
+Um livro pode pertencer a uma ou mais bandas:
+
+O grande fator que talvez me complicou foi o "Contem".
+A cardinalidade (1,n) entre Livros e "Contem" e a cardinalidade (n,1) entre "Contem" e Bandas quer dizer que um livro pode ser associado a múltiplas bandas
+Então quer dizer que um livro pode conter informações sobre várias bandas, ou mesmo só de uma
+
+A tabela "Contem" serve como uma tabela de junção, faz uma relação muitos-para-muitos entre ivros e Bandas. Ela armazena as associações entre livros e bandas, permitindo que um livro esteja relacionado a várias bandas e vice-versa
+
+Adesivos, Camisas, Vinis e Chaveiros e Canecas
+Cardinalidade (1,n) para Bandas: Isso significa que cada um desses produtos (adesivos, camisas, vinis e chaveiros) só está relacionado a uma banda. Mas uma banda pode ter muitos deles.
+
